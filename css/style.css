@@ -17,7 +17,7 @@ a {
 }
 
 img {
-    max-width: 60px;
+    max-width: 100%;
 }
 
 /* HEADER
@@ -82,6 +82,11 @@ nav {
 
 /*HOME
 -----------------------------------------------*/
+#imghome {
+    max-width: 100%;
+    height: 60px;
+}
+
 .home-content {
     text-align: center;
     margin-top: 5%;
