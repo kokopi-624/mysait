@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!--css-->
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <title>kokopi news</title>
+</head>
+
+<header>
+    <div class="top-header">
+        <img class="kokopi-news-logo" src="image/kokopi-news-logo.png">
+        <h1>
+            ここぴニュース
+        </h1>
+
+        <div class="searchbox">
+            <input type="search" id="myInput" name="query" placeholder="サイト内を検索">
+            <button onclick=search()>検索</button>
+        </div>
+    </div>
+
+
+    <div class="button-cover">
+        <button class="categorybutton" onclick="showCategory('domestic')">国内</button>
+        <button class="categorybutton" onclick="showCategory('abroad')">国外</button>
+        <button class="categorybutton" onclick="showCategory('politics')">政治</button>
+        <button class="categorybutton" onclick="showCategory('entertainment')">エンタメ</button>
+        <button class="categorybutton" onclick="showCategory('sports')">スポーツ</button>
+        <button class="categorybutton" onclick="showCategory('all')">トップ</button>
+    </div>
+
+</header>
+
+
+<body>
+
+    <img src="https://drive.google.com/thumbnail?id=1e4mEMTQmdmSrFq-dqth22KlzUuzQdnO0">
+
+    <ul class="spreadsheets">
+        <li class="article spreadsheets--item spreadsheets--category js-base">
+            <a class="spreadsheets--link" href="">
+                <img src="" alt="" loading="lazy" class="spreadsheets--img spreadsheets--image" width="100%"
+                    height="auto">
+                <h1 class="spreadsheets--title">
+                </h1>
+            </a>
+        </li>
+    </ul>
+    <script src="script.js"></script>
+</body>
